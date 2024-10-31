@@ -1,0 +1,120 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Programador Iniciante - Portfólio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+        .section {
+            background-color: #ffffff;
+            padding: 16px;
+            margin-bottom: 16px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+        .section p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+        }
+        @media (min-width: 768px) {
+            .grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (min-width: 1024px) {
+            .grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        .card {
+            background-color: #e5e7eb;
+            padding: 16px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+        .card h3 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .card p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        footer {
+            background-color: #2563eb;
+            color: #ffffff;
+            padding: 16px;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 8px;
+        }
+        .social-icons a {
+            color: #ffffff;
+            margin: 0 8px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <section class="container section" id="about">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Meu nome é Guilherme e sou um programador iniciante, então nao tenho codigos para compartilhar só vou colocar as ferramentas que eu uso normalmente</p>
+    </section>
+    <section class="container section" id="projects">
+        <h2>Projetos</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://storage.googleapis.com/a1aa/image/lwBlcZUv514fPidfyrreSaLGtXnizRV379fpaQQomy6EovwOB.jpg" alt="Imagem de um projeto de site de portfólio"/>
+                <h3>Projeto 1</h3>
+                <p>No World estou bem Familiarizado.</p>
+            </div>
+            <div class="card">
+                <img src="https://storage.googleapis.com/a1aa/image/aFHwFbOGLnJzL1SegRfNOLb5TEaDkETKFSqreTbB91v3zXYnA.jpg" alt="Imagem de um projeto no Microsoft Excel"/>
+                <h3>Projeto 2</h3>
+                <p>O Excel foi oque eu mais gostei.</p>
+            </div>
+            <div class="card">
+                <img src="https://storage.googleapis.com/a1aa/image/X0VXHKUWLiYvDxAQpms7YyQUb15JgeEuMrkuBd8nWH7f5LsTA.jpg" alt="Imagem de um projeto no Microsoft Word"/>
+                <h3>Projeto 3</h3>
+                <p>Power Point normalmente eu uso pra fazer trabalhos da escola .</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
